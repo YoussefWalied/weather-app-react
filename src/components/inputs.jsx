@@ -1,7 +1,7 @@
 import { BiSearch, BiCurrentLocation } from "react-icons/bi";
 import React, { useState } from "react";
 
-const Inputs = ({setQuery,setUnits,units}) => {
+const Inputs = ({setQuery,setUnits,units,setError}) => {
     const [city, setCity] = useState('');
 
     const handleSearch = () => {
